@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: url('../img/box.jpg') center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-bottom: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header h1 {
+  margin: 2rem;
+
+}
+.navbar ul {
+  list-style: none;
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #EE8F35;
+}
+
+.navbar li {
+  align-content: space-around;
+  padding: 2rem;
+}
