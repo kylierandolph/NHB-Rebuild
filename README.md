@@ -9,6 +9,15 @@ Navigation Items:<br>
     LEARN - Links to WP site with a list of tutorials<br>
     SUBSCRIBE - Links to a 'checkout' powered by STRIPE<br>
     
+    
+    
+    
+To complete Code Louisville's Front End Project requirements, "Home" will be complete with user interactivity but the "Shop", "Learn", and "Subscribe" navigation items will be dead. (With the intention to complete during Code Louisville's FSJS course. 
+
+
+If you're looking at this and see something that just seems strange- please let me know! Most of my knowledge is from online videos and would love to hear from a 'real person' :-) 
+
+- Kylie.r.randolph@gmail.com
   
     
     
