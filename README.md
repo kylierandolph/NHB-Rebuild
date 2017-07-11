@@ -1,5 +1,5 @@
 # NHB-Rebuild
-NHB site rebuild
+NHB (New Hobby Box) site rebuild
 
 Attempting to re-build a pre-existing site (<i>newhobbybox.com</i>) that was built with the "Crate Joy Designer Tool" (Similar to Wix) 
 
