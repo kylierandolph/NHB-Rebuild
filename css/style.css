@@ -27,6 +27,10 @@
   padding: 2rem;
 }
 
+nav a {
+  font-weight: 900;
+}
+
 /******************************* start of form*/
 
 .form {
@@ -47,7 +51,7 @@ button {
 /********************************** footer*/
 
 .main-footer {
-  position:sticky;
+  position: sticky;
   width: auto;
   height: auto;
   margin: 0 auto;

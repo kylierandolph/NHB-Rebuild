@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
 </head>
 
 <!-- Header -->
@@ -31,8 +32,10 @@
 <body>
   <div class="content">
     <section>
-      <h3>Never Stop Trying New Things...</h3>
-      <h2>This Month We're Trying: Bookbinding</h2>
+      <center>
+        <h3>Never Stop Trying New Things...</h3>
+        <h2>This Month We're Trying: Bookbinding</h2>
+    </center>
     </section>
     <section>
       <center>
@@ -44,13 +47,14 @@
 
 
   <!-- Become a Hobbyist Form -->
+  <center>
   <form action="index.html" method="post">
 
   <h1>Become a Hobbyist!</h1>
 
   <fieldset>
 
-    <legend><span class="number"> Who Are You?</legend>
+    <legend><span class="contact"> Who Are You?</legend>
 
       <label for="name">Name:</label>
       <input type="text" id="name" name="user_name">
@@ -69,11 +73,10 @@
 
   <fieldset>
 
-    <legend><span class="number"> About You</legend>
 
-      <label for="Interests">What Hobbies Are You Interested In?</label>
+
+      <label for="Interests"><b>What Hobbies Are You Interested In?</b></label>
       <br></br>
-      <label><b>Interests:</b></label>
         <input type="checkbox" id="lockpicking" value="interest_lockpicking" name="user_interest"><label class="light" for="lockpicking">Lock Picking</label>
         <input type="checkbox" id="crochet" value="interest_crochet" name="user_interest"><label class="light" for="crochet">Crochet</label>
         <input type="checkbox" id="kombuchabrewing" value="interest_kombuchabrewing" name="user_interest"><label class="light" for="kombuchabrewing">Kombucha Brewing</label>
@@ -92,13 +95,12 @@
         <input type="checkbox" id="flytying" value="interest_flytying" name="user_interest"><label class="light" for="Flytying">Fly Tying</label>
         </span>
   </fieldset>
-
-  <br></br>
   <center>
   <button type="submit">Sign Up</button>
   </center>
 
 </form>
+</center>
 
 <!-- End of Form -->
 
