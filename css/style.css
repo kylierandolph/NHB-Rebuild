@@ -25,3 +25,28 @@
   align-content: space-around;
   padding: 2rem;
 }
+
+
+/*form*/
+
+.form {
+  display: flex;
+  flex-grow: 50%;
+}
+
+/*form*/
+
+
+
+
+/*footer*/
+
+.main-footer {
+  width: auto;
+  margin: 0 auto;
+  background-color: #EE8F35
+}
+
+
+
+/*footer*/
