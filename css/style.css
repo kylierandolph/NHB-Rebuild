@@ -38,6 +38,11 @@
   flex-grow: 50%;
 }
 
+button {
+  color: #ee8f35;
+}
+
+
 /****** end of form*/
 
 
@@ -46,7 +51,9 @@
 /********************************** footer*/
 
 .main-footer {
+  position:sticky;
   width: auto;
+  height: auto;
   margin: 0 auto;
   background-color: #EE8F35
 }
