@@ -6,8 +6,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
 
+<!-- Header -->
+<header>
 <div class="header">
   <h1>NEW HOBBY BOX</h1>
 </div>
@@ -15,24 +16,26 @@
     <ul>
       <li>HOME</li>
       <li>PAST HOBBIES</li>
-      <li>LEARN</li>
       <li>SUBSCRIBE</li>
     </ul>
   </nav>
 </header>
 
+<!-- Content -->
 <body>
-  <div>
+  <div class="content">
     <section>
-      <p>Never Stop Trying New Things</p>
-      <p>This Month We're Trying: Bookbinding</p>
-        <ul>
-          <li>Subscribe</li>
-          <li>Discover</li>
-          <li>Explore</li>
-        </ul>
+      <h3>Never Stop Trying New Things</h3>
+      <h2>This Month We're Trying: Bookbinding</h2>
+    </section>
+    <section>
+      <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_Km0sSvweoc" frameborder="3" allowfullscreen></iframe>
+      </center>
     </section>
   </div>
+
+
 
   <!-- Become a Hobbyist Form -->
   <form action="index.html" method="post">
@@ -41,47 +44,52 @@
 
   <fieldset>
 
-    <legend><span class="number"></span>Who Are You?</legend>
+    <legend><span class="number"> Who Are You?</legend>
 
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
 
-    <label for="mail">Email:</label>
-    <input type="email" id="mail" name="user_email">
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
 
-    <label for="password">Password</label>
-    <input type="password" id="password" name="user_password">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="user_password">
 
-    <label>Age:</label>
-    <input type="radio" id="under_18" value="under_18" name="user_name"><label for="under_18" class="light">Under 18</label>
-    <input type="radio" id="over_18" value="over_18" name="user_name"><label for="under_18" class="light">18 or Older</label>
-
+      <label>Age:</label>
+      <input type="radio" id="under_18" value="under_18" name="user_name"><label for="under_18" class="light">Under 18</label>
+      <input type="radio" id="over_18" value="over_18" name="user_name"><label for="under_18" class="light">18 or Older</label>
+      </span>
   </fieldset>
 
   <fieldset>
 
-    <legend><span class="number"></span> Your profile</legend>
+    <legend><span class="number"> About You</legend>
 
-    <label for="bio">What Hobbies Are You Interested In?</label>
-    <label for="Interests"></label>
-    <br></br>
-    <label><b>Interests:</b></label>
-      <input type="checkbox" id="lockpicking" value="interest_lockpicking" name="user_interest"><label class="light" for="lockpicking">Lock Picking</label>
-      <input type="checkbox" id="crochet" value="interest_crochet" name="user_interest"><label class="light" for="crochet">Crochet</label>
-      <input type="checkbox" id="kombuchabrewing" value="interest_kombuchabrewing" name="user_interest"><label class="light" for="kombuchabrewing">Kombucha Brewing</label>
-      <input type="checkbox" id="soldering" value="interest_soldering" name="user_interest"><label class="light" for="Soldering">Soldering</label>
-      <input type="checkbox" id="bookbinding" value="interest_bookbinding" name="user_interest"><label class="light" for="Bookbinding">Bookbinding</label>
-      <input type="checkbox" id="scrimshaw" value="interest_scrimshaw" name="user_interest"><label class="light" for="Scrimshaw">Scrimshaw</label>
-
+      <label for="bio">What Hobbies Are You Interested In?</label>
+      <label for="Interests"></label>
+      <br></br>
+      <label><b>Interests:</b></label>
+        <input type="checkbox" id="lockpicking" value="interest_lockpicking" name="user_interest"><label class="light" for="lockpicking">Lock Picking</label>
+        <input type="checkbox" id="crochet" value="interest_crochet" name="user_interest"><label class="light" for="crochet">Crochet</label>
+        <input type="checkbox" id="kombuchabrewing" value="interest_kombuchabrewing" name="user_interest"><label class="light" for="kombuchabrewing">Kombucha Brewing</label>
+        <input type="checkbox" id="soldering" value="interest_soldering" name="user_interest"><label class="light" for="Soldering">Soldering</label>
+        <input type="checkbox" id="bookbinding" value="interest_bookbinding" name="user_interest"><label class="light" for="Bookbinding">Bookbinding</label>
+        <input type="checkbox" id="scrimshaw" value="interest_scrimshaw" name="user_interest"><label class="light" for="Scrimshaw">Scrimshaw</label>
+        </span>
   </fieldset>
+  <br></br>
 
   <button type="submit">Sign Up</button>
 
 </form>
+
 <!-- End of Form -->
+
+
 
 </body>
 
+<br></br>
 
 <!-- Footer -->
 
@@ -91,5 +99,6 @@
 
 
 <!-- Footer -->
+
 </body>
 </html>

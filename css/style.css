@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: #EE8F35;
+  margin: auto;
 }
 
 .navbar li {
@@ -26,20 +27,23 @@
   padding: 2rem;
 }
 
+.content h2 {
+  align-content: center;
+}
 
-/*form*/
+/******************************* start of form*/
 
 .form {
   display: flex;
   flex-grow: 50%;
 }
 
-/*form*/
+/****** end of form*/
 
 
 
 
-/*footer*/
+/********************************** footer*/
 
 .main-footer {
   width: auto;
@@ -49,4 +53,4 @@
 
 
 
-/*footer*/
+/*end of footer*/
