@@ -27,10 +27,6 @@
   padding: 2rem;
 }
 
-.content h2 {
-  align-content: center;
-}
-
 /******************************* start of form*/
 
 .form {
@@ -39,7 +35,7 @@
 }
 
 button {
-  color: #ee8f35;
+  background-color: #ee8f35;
 }
 
 
