@@ -48,11 +48,14 @@ video {
   height:100%;
 }
 
+
+
 /******************************* start of form*/
 
 .form {
   display: flex;
   flex-grow: 50%;
+  background-color: black;
 }
 
 button {
@@ -63,8 +66,10 @@ button {
 
 /****** end of form*/
 
+/*************************************START OF MODAL*/
 
 
+/*************************************END OF MODAL*/
 
 /********************************** footer*/
 
