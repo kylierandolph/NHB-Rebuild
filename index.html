@@ -16,9 +16,9 @@
   </div>
     <nav class="navbar">
       <ul>
-        <a href="index.html"><li>HOME</li></a>
-        <a href="http://howto.newhobbybox.com/"><li>PAST HOBBIES</li></a>
-        <a href="http://newhobbybox.com/subscribe"><li>SUBSCRIBE</li></a>
+        <a href="index.html"><li>Home</li></a>
+        <a href="http://howto.newhobbybox.com/"><li>Past Hobbies</li></a>
+        <a href="http://newhobbybox.com/subscribe"><li>Subscribe</li></a>
       </ul>
     </nav>
 </header>
@@ -29,8 +29,10 @@
       <center>
         <h3>Never Stop Trying New Things...</h3>
         <h2>This Month We're Trying: Bookbinding</h2>
+
     </center>
     </section>
+
     <section>
       <center>
         <video src="bookbinding.m4v" controls autoplay />
@@ -42,14 +44,14 @@
 
 
   <!-- Become a Hobbyist Form -->
-  <center>
+  <!-- <center>
   <form id="signUp" action="index.html" method="post">
 
   <h1>Become a Hobbyist!</h1>
 
   <fieldset>
 
-    <legend><span class="contact"> Who Are You?</legend>
+    <legend><span class="contact"><b>Who Are You?</b></legend>
 
       <label for="name">Name:</label>
       <input type="text" id="name" name="user_name">
@@ -64,12 +66,10 @@
       <input type="radio" id="under_18" value="under_18" name="user_name"><label for="under_18" class="light">Under 18</label>
       <input type="radio" id="over_18" value="over_18" name="user_name"><label for="under_18" class="light">18 or Older</label>
       </span>
-  </fieldset>
+  </fieldset> -->
+
 
   <fieldset>
-
-
-
       <label for="Interests"><b>What Hobbies Are You Interested In?</b></label>
       <br></br>
         <input type="checkbox" id="lockpicking" value="interest_lockpicking" name="user_interest"><label class="light" for="lockpicking">Lock Picking</label>
@@ -92,13 +92,37 @@
   </fieldset>
 
   <center>
-  <button type="submit" id="button">Sign Up</button>
+  <button type="submit" id="Submit">Submit</button>
   </center>
 
 </form>
 </center>
 
 <!-- End of Form -->
+
+<!-- Sign up form test -->
+
+<form action="/index.html">
+  <div class="container">
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Ready to try something new?
+    <br></br>
+
+    <div class="clearfix">
+      <button action="/index.html" type="button"  class="cancelbtn">Cancel</button>
+      <button action="/index.html" type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+<!-- Sign up form test end -->
 
 
 

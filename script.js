@@ -2,6 +2,7 @@
 // Message when Sign up button is submitted-->
 var name = alert("You're one step closer to learning something new!")
 
+
 // Back to top button -->
 window.onscroll = function() {scrollFunction()};
 
