@@ -3,6 +3,20 @@
 var name = alert("You're one step closer to learning something new!")
 
 
+// Responsive navigation-->
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+
+
 // Back to top button -->
 window.onscroll = function() {scrollFunction()};
 
